@@ -1,0 +1,25 @@
+.benefit {
+    padding: 74px 0 64px;
+    &__wrapper {
+        display: flex;
+        margin-top: 60px;
+        justify-content: space-between;
+    }
+    &__img  {
+        margin: 0 auto;
+        animation: heartbeat 1.5s ease infinite;
+    }
+    &__subtitle {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    &__text {
+        text-align: center;
+        max-width: 287px;
+        margin-top: 20px;
+        font-size: 14px;
+        span {
+            color: #FF0000;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.reviews {
+    padding-bottom: 50px;
+    &__title {
+        margin-bottom: 60px;
+    }
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        margin-bottom: 110px;
+        
+    }
+    &__img {
+        margin-right: 61px;
+    }
+    &__desc {
+        max-width: 635px;
+    }
+    
+    &__name {
+        display: block;
+        font-weight: 700;
+        font-size: 18px; 
+        margin-bottom: -5px;   
+    }
+    &__marafon {
+        color: #646464;
+        font-weight: 500;
+       
+    }
+    &__text {
+        font-size: 16px;
+    }
+}

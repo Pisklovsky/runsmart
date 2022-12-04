@@ -1,0 +1,32 @@
+.footer {
+    position: relative;
+    &__info {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 460px;
+        height: 270px;
+        background: #C70101;
+        text-align: center;
+    }
+    &__addres {
+        margin-top: 50px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    &__tel {
+        margin-top: 36px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    &__social {
+        display: flex;
+        justify-content: center;
+        margin-top: 36px;
+        &_item  {
+            margin: 0 15px;
+        }
+    }
+}
